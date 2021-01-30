@@ -1,0 +1,47 @@
+
+
+
+.blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    transition: all .2s ease-in;
+}
+
+.one {
+    background-color: rgb(228, 161, 161);
+}
+
+.two {
+    background-color: rgb(50, 114, 151);
+}
+.three {
+    background-color: rgb(34, 129, 25);
+}
+
+.BlockChange {
+    opacity: 0;
+}
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.button1{
+    height: 50px;
+    width: 100px;
+}
+.button2{
+    height: 50px;
+    width: 100px;
+}
+.button3{
+    height: 50px;
+    width: 100px;
+}
